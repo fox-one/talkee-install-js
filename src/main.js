@@ -50,14 +50,14 @@ export default function (opts) {
     }
     setTimeout(() => {
       if (_checkTalkee()) {
-        if (document.getElementById("comments")) {
+        if (document.querySelector(talkeeOpts.container)) {
           window.Talkee.show(talkeeOpts);
         }
       } else {
         // try again
         installTalkee();
       }
-    }, 1000);
+    }, 100);
   }
 
   installTalkee();
