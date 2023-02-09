@@ -1,6 +1,6 @@
 {
-  "name": "talkee-install-js",
-  "version": "0.0.1",
+  "name": "@foxone/talkee-install-js",
+  "version": "0.0.2",
   "description": "JS snippet for talkee-installation",
   "browser": "dist/tijs.min.js",
   "repository": {
