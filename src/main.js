@@ -50,7 +50,9 @@ export default function (opts) {
     }
     setTimeout(() => {
       if (_checkTalkee()) {
-        if (document.querySelector(talkeeOpts.container)) {
+        const container = document.querySelector(talkeeOpts.container);
+        if (container) {
+          container.style.display = "block";
           window.Talkee.show(talkeeOpts);
         }
       } else {
