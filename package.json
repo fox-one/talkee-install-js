@@ -1,0 +1,22 @@
+{
+  "name": "talkee-install-js",
+  "version": "0.0.1",
+  "description": "JS snippet for talkee-installation",
+  "browser": "dist/tijs.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fox-one/talkee-install-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fox-one/talkee-install-js/issues"
+  },
+  "homepage": "https://github.com/fox-one/talkee-install-js",
+  "author": "Lyric",
+  "license": "MIT",
+  "scripts": {
+		"build": "rollup --config"
+	},
+  "devDependencies": {
+    "rollup": "^3.14.0"
+  }
+}
