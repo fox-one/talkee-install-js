@@ -1,6 +1,6 @@
 {
   "name": "@foxone/talkee-install-js",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "JS snippet for talkee-installation",
   "jsdelivr": "dist/ti.min.js",
   "browser": "dist/ti.min.js",
