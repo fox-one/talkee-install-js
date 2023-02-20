@@ -38,6 +38,9 @@ export default function (opts) {
     container: opts.container || "#comments",
     // default locale is en
     locale: opts.locale || "en",
+    passport: {
+      chainId: opts.chainId || 1,
+    },
     // add supported auth methods
     auth: {
       authMethods: opts.authMethods || ["metamask", "walletconnect", "mixin", "fennec"],
