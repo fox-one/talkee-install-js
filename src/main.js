@@ -1,5 +1,5 @@
 
-const version = "2.0.5";
+const version = "3.0.0";
 
 export default function (opts) {
   const styleUrl = `https://cdn.jsdelivr.net/npm/@foxone/talkee@${version}/dist/style.css`;
