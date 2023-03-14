@@ -1,11 +1,11 @@
 
-const version = "3.0.0";
+const version = "3.0.1";
 
 export default function (opts) {
   const styleUrl = `https://cdn.jsdelivr.net/npm/@foxone/talkee@${version}/dist/style.css`;
   const scriptUrls = [
     { name: "vue", url: `https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.prod.js` },
-    { name: "mvm", url: `https://cdn.jsdelivr.net/npm/@foxone/mvm@0.1.29/dist/mvm.min.js` },
+    { name: "mvm", url: `https://cdn.jsdelivr.net/npm/@foxone/mvm@0.1.30/dist/mvm.min.js` },
     { name: "talkee", url: `https://cdn.jsdelivr.net/npm/@foxone/talkee@${version}/dist/index.umd.js` },
   ];
 
